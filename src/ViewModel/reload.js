@@ -3,7 +3,7 @@ function reinitialize() {
           center: new google.maps.LatLng( 45.388081, -75.69602),
           zoom: 17
         };
-		alert("Hello");
+		//alert("Hello");
         var map = new google.maps.Map(document.getElementById("map-canvas"),
             mapOptions);	
 		// 	You can enter any points here and it should draw the polyline.
@@ -14,7 +14,7 @@ function reinitialize() {
 		LocalDestination.lng = DESTINATION.lng;
 		
 		
-		alert(LOCATION.lat);
+	//	alert(LOCATION.lat);
 		var dest=LocalDestination;	// destination
 		var loc =B9;    
 		//THIS IS WHERE IT SHOULD BE CHANGED TO LOCATION
@@ -48,7 +48,7 @@ function reinitialize() {
 	
 			if (count == 0 )
 			{
-				alert("infintite loop, exciting");
+				alert("infintite loop, exiting");
 				break;
 			}
 			var closest_pt=closest_pt_mark(dest,loc);
