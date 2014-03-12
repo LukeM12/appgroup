@@ -48,7 +48,6 @@
 	local.lng = -75.6960202;    
 	var x = FindClosestAssociatedPoint(local, ALLPOINTS);
 	LOCATION = x;
-	alert(LOCATION.name);
    //getMyPos();
    </script>
 		 <!--Error Testing Modules-->

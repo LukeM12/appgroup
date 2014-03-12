@@ -1,68 +1,53 @@
-//Between Parking to North of Residence and Campus Avenue	
+//	
 var A0 = new Object({
 			lat: 45.38851,
 			lng: -75.696978,
 			name: "A0",
 			building: "null"
 		});
-		
-var A0a = new Object({
-			lat: 45.389427,
-			lng: -75.698688,
-			name: "A0a",
-			building: "P6"
-		});		
 
-
-//Between Parking and Carleton Conference and Housing Centre
+//	
 var A1 = new Object({
 			lat: 45.38828,
 			lng: -75.697729,
 			name: "A1",
 			building: "null"
 		});
-		
-//Near Leeds House
+//
 var A2 = new Object({
 			lat: 45.388024,
 			lng: -75.69841,
 			name: "A2",
 			building: "null"
 		});
-		
-//Between Leeds House and Carleton Conference and Housing Centre
+//
 var A3 = new Object({
 			lat: 45.388024,
 			lng: -75.697852,
 			name: "A3",
 			building: "null"
 		});
-		
-//Near north of Carleton Conference and Housing Centre			
 var A4 = new Object({
 			lat: 45.388095,
 			lng: -75.697343,
 			name: "A4",
 			building: "null"
 		});
-		
-//inside Leeds House
+//
 var A5 = new Object({
-			lat: 45.388001,
-			lng: -75.698686,
+			lat: 45.38828,
+			lng: -75.697729,
 			name: "A5",
 			building: "LE"
 		});	
-		
-//between Leeds House and St. Patrick¡¯s Building
+//
 var A5a = new Object({
 			lat: 45.387738,
 			lng: -75.698619,
 			name: "A5a",
 			building: "null"
 });	
-
-//between Leeds House and St. Patrick¡¯s Building
+//
 var A5b = new Object({
 			lat: 45.387594,
 			lng: -75.698743,
@@ -105,14 +90,6 @@ var A6c = new Object({
 			building: "SP"
 		});	
 //
-
-var A6d = new Object({
-			lat: 45.387506,
-			lng: -75.69844,
-			name: "A6d",
-			building: "SP"
-		});	
-
 var A7 = new Object({
 			lat: 45.387704,
 			lng: -75.697852,
@@ -211,14 +188,6 @@ var A13d = new Object({
 			building: "CO"
 		});
 //
-
-var A13e = new Object({
-			lat: 45.387171,
-			lng: -75.697141,
-			name: "A13e", 
-			building: "CO"
-		});
-
 var A14 = new Object({
 			lat: 45.3875,
 			lng: -75.696929,
@@ -300,16 +269,8 @@ var A20b = new Object({
 			lat: 45.386166,
 			lng: -75.698474,
 			name: "A20b", 
-			building: "GR"
+			building: "GP"
 		});
-
-var A20c = new Object({
-			lat: 45.386471,
-			lng: -75.69846,
-			name: "A20c", 
-			building: "GR"
-		});		
-		
 //
 var A21 = new Object({
 			lat: 45.386792,
@@ -406,20 +367,13 @@ var A27 = new Object({
 			lat: 45.386106,
 			lng: -75.698823,
 			name: "A27", 
-			building: "null"
+			building: "FR"
 		});
 //
 var A27a = new Object({
 			lat: 45.386061,
 			lng: -75.697782,
 			name: "A27a", 
-			building: "FR"
-		});
-		
-var A27b = new Object({
-			lat: 45.38606,
-			lng: -75.698364,
-			name: "A27b", 
 			building: "FR"
 		});
 //
@@ -475,8 +429,8 @@ var A32 = new Object({
 var A33 = new Object({
 			lat: 45.385726,
 			lng: -75.698866,
-			name: "A33", 
-			building: "null"
+			name: "A34", 
+			building: "LH"
 		});
 //
 var A34 = new Object({
@@ -489,7 +443,7 @@ var A34 = new Object({
 var A34a = new Object({
 			lat: 45.385812,
 			lng: -75.698651,
-			name: "A34a", 
+			name: "A34b", 
 			building: "LH"
 		});
 //
@@ -540,13 +494,6 @@ var A40 = new Object({
 			lng:-75.697659,
 			name: "A40", 
 			building: "null"
-		});
-		
-var A40a = new Object({
-			lat: 45.385759,
-			lng:-75.698208,
-			name: "A40a", 
-			building: "LH"
 		});
 //
 var A41 = new Object({
@@ -760,13 +707,6 @@ var B17 = new Object({
 			name: "B17", 
 			building: "null"
 		});
-		
-var B17a = new Object({
-			lat: 45.383564,
-			lng:-75.69665,
-			name: "B17a", 
-			building: "P2"
-		});
 //
 var B18 = new Object({
 			lat: 45.383527,
@@ -944,8 +884,8 @@ var B35 = new Object({
 		});
 //
 var B35a = new Object({
-			lat: 45.381923,
-			lng: -75.6997,
+			lat: 45.381998,
+			lng: -75.699883,
 			name: "B35a", 
 			building: "ML"
 		});
@@ -997,7 +937,7 @@ var B40 = new Object({
 			lat: 45.382826,
 			lng: -75.696578,
 			name: "B40", 
-			building: "null"
+			building: "SC"
 		});
 //
 var B40a = new Object({
@@ -1006,14 +946,6 @@ var B40a = new Object({
 			name: "B40a", 
 			building: "SC"
 		});
-	
-var B40b = new Object({
-			lat: 45.382774,
-			lng: -75.696852,
-			name: "B40b", 
-			building: "SC"
-		});		
-		
 //
 var B41 = new Object({
 			lat: 45.382811,
@@ -1114,14 +1046,6 @@ var B49 = new Object({
 			name: "B49", 
 			building: "null"
 		});
-		
-var B49a = new Object({
-			lat: 45.381294,
-			lng: -75.698037,
-			name: "B49a", 
-			building: "LS"
-		});		
-		
 //
 var B50 = new Object({
 			lat: 45.381282,
@@ -1213,13 +1137,6 @@ var B60 = new Object({
 			name: "B60", 
 			building: "null"
 		});
-		
-var B60a = new Object({
-			lat: 45.3809,
-			lng: -75.699021,
-			name: "B60a", 
-			building: "LA"
-		});		
 //
 var B61 = new Object({
 			lat: 45.380875,
@@ -1227,14 +1144,6 @@ var B61 = new Object({
 			name: "B61", 
 			building: "null"
 		});
-
-var B61a = new Object({
-			lat: 45.380927,
-			lng: -75.700448,
-			name: "B61a", 
-			building: "P1"
-		});		
-
 //
 var B62 = new Object({
 			lat: 45.380679,
@@ -1258,18 +1167,18 @@ var B63a = new Object({
 			building: "VS"
 		});
 //
-var B64 = new Object({
+var B64 = new Object({ //FIXME, there are 2 separate points for LA this and 67
 			lat: 45.380716,
 			lng: -75.699845,
 			name: "B64", 
-			building: "HC"
+			building: "LA"
 		});
 //
-var B64a = new Object({ 
-			lat: 45.380672,
-			lng: -75.699496,
+var B64a = new Object({ //FIXME, there are 2 separate points for LA this and 67
+			lat: 45.380468,
+			lng: -75.69963,
 			name: "B64a", 
-			building: "HC"
+			building: "LA"
 		});
 //
 var B65 = new Object({ 
@@ -1353,14 +1262,6 @@ var C1a=new Object({
 	building:"CC"
 });
 
-
-var C1b=new Object({
-	lat:45.385369,
-	lng: -75.695411,
-	name: "C1b",
-	building:"P4"
-});
-
 var C2=new Object({
 		lat:45.38563,
 		lng:-75.694379,
@@ -1389,21 +1290,6 @@ var C4a=new Object({
 	building:"GY"
 });
 
-
-var C4b=new Object({
-	lat: 45.3862510,
-	lng: -75.694164,
-	name: "C4b",
-	building:"AC"
-});
-
-var C4c=new Object({
-	lat: 45.386936,
-	lng: -75.694507,
-	name: "C4c",
-	building:"FH"
-});
-
 var C5=new Object({
 	lat: 45.385411,
 	lng: -75.693381,
@@ -1419,23 +1305,16 @@ var C6=new Object({
 });
 
 var C6a=new Object({
-	lat: 45.384435,
-	lng: -75.694708,
+	lat: 45.384092,
+	lng: -75.69454,
 	name: "C6a",
-	building:"MB"
+	building:"MT"
 });
 
 var C6b=new Object({
 	lat: 45.384371,
 	lng: -75.693767,
 	name: "C6b",
-	building:"null"
-});
-
-var C6bx=new Object({
-	lat: 45.384502,
-	lng: -75.693614,
-	name: "C6bx",
 	building:"TT"
 });
 
@@ -1450,21 +1329,7 @@ var C6d=new Object({
 	lat: 45.384296,
 	lng: -75.692684,
 	name: "C6d",
-	building:"null"
-});
-
-var C6e=new Object({
-	lat: 45.384096,
-	lng: -75.692716,
-	name: "C6e",
 	building:"NW"
-});
-
-var C6f=new Object({
-	lat: 45.384838,
-	lng: -75.69268,
-	name: "C6f",
-	building:"P3"
 });
 
 var C7=new Object({
@@ -1565,34 +1430,11 @@ var C16a=new Object({
 	building:"AH"
 });
 
-var C16b=new Object({
-	lat: 45.385959,
-	lng: -75.692581,
-	name: "C16b",
-	building:"IH"
-});
-
-
-var C16c=new Object({
-	lat: 45.387667,
-	lng: -75.693399,
-	name: "C16c",
-	building:"P5"
-});
-
-
 var C17=new Object({
 	lat: 45.387519,
 	lng: -75.69565,
 	name: "C17",
 	building:"null"
-});
-
-var C17a=new Object({
-	lat: 45.388045,
-	lng: -75.69498,
-	name: "C17a",
-	building:"TC"
 });
 
 var C18=new Object({
@@ -1601,31 +1443,19 @@ var C18=new Object({
 	name: "C18",
 	building:"null"
 });
-
-var C19=new Object({
-	lat: 45.390218,
-	lng: -75.69661,
-	name: "C19",
-	building:"P7"
-});
-
-
-
-A0.surr = new Array(A0a, A1, A4, A15, C18); 
-A0a.surr = new Array(A0, A1);
-A1.surr = new Array(A0, A0a, A2, A3, A4);
+A0.surr = new Array(A1,A4, A15, C18); 
+A1.surr = new Array(A0,A2,A3,A4);
 A2.surr = new Array(A1, A3, A5, A5a, A6,  A7);
 A3.surr = new Array(A1, A2, A4, A5, A5a, A6, A7);
 A4.surr = new Array(A0, A1, A3, A8);
-A5.surr = new Array(A2, A3, A5a, A5b, A5c, A6);
+A5.surr = new Array(A2,A3, A5a, A5b, A6);
 A5a.surr = new Array(A2, A3, A5, A5b, A6,A6a ,A7 );
 A5b.surr = new Array(A5,A5a, A5c, A6, A6a, A9,A16,A17);
-A5c.surr = new Array(A5, A5b, A9);
-A6.surr = new Array(A2, A3, A5, A5a, A5b, A6d, A7);
-A6a.surr = new Array(A5a, A5b, A6d, A9, A16);
-A6b.surr = new Array(A6d, A16, A17, A18);
-A6c.surr = new Array(A6d, A10, A11, A12, A13);
-A6d.surr = new Array(A6, A6a, A6b, A6c);
+A5c.surr = new Array(A9, A5b);
+A6.surr = new Array(A2, A3, A5, A5a, A5b, A7);
+A6a.surr = new Array(A5a, A5b, A9, A16);
+A6b.surr = new Array(A16, A17, A18);
+A6c.surr = new Array(A10, A11, A12, A13);
 A7.surr = new Array(A2,A3,A5a,A6,A10);
 A8.surr = new Array(A4, A8a);
 A8a.surr= new Array(A8, A12);
@@ -1635,42 +1465,39 @@ A9.surr = new Array(A5b, A5c, A6a, A16, A17);
 A10.surr = new Array(A6c, A7, A8b, A11, A12, A13);
 A11.surr = new Array(A6c,A8b, A10, A12, A13a, A17, A18);
 A12.surr = new Array(A6c, A8a, A8b, A8c, A10, A11, A13);
-A13.surr = new Array(A6c,A8b,A8c,A10, A12, A13e);
-A13a.surr = new Array(A11, A18, A22, A13e);
-A13b.surr = new Array(A13c, A22, A13e);
-A13c.surr = new Array(A13b, A24, A13e);
-A13d.surr = new Array(A13, A14, A13e, A15b);
-A13e.surr = new Array(A13, A13a, A13b, A13c, A13d, A15b);
+A13.surr = new Array(A6c,A8b,A8c,A10, A12);
+A13a.surr = new Array(A11, A18, A22);
+A13b.surr = new Array(A13c, A22);
+A13c.surr = new Array(A13b, A24);
+A13d.surr = new Array(A13, A14);
 A14.surr = new Array(A13d, A8c, A15a);
 A15.surr = new Array(A0, A1, A4, A15a);
 A15a.surr = new Array(A14, A15, A15b);
-A15b.surr = new Array(A13e, A15a, A24);
+A15b.surr = new Array(A15a, A24);
 A16.surr = new Array(A5b,A6a, A6b, A9, A17, A21);
 A17.surr = new Array(A5b, A6b, A9, A11, A16, A18, A19,A19a);
-A18.surr = new Array(A6b, A11, A13a, A17, A19, A22, A23);
+A18.surr = new Array( A6b, A11,  A13a,A17, A19, A22,A23);
 A19.surr = new Array(A17, A18, A22,A25);
 A19a.surr = new Array(A17, A21);
 A20.surr = new Array(A21, A20a, A27);
 A20a.surr = new Array(A20, A22, A25);
 A20b.surr = new Array(A27, A28, A25);
-A20c.surr = new Array(A20b, A25, A28);
-A21.surr = new Array(A16, A19a, A20, A21a, A27);
-A21a.surr = new Array(A21, A27, A28, A33, A34a);
-A22.surr = new Array(A13a,A13b, A18, A19, A20a, A23,A23a, A25,A26);
+A21.surr = new Array(A16, A19a, A20,A21a, A27,A34a);
+A21a.surr = new Array(A21, A27, A28, A33);
+A22.surr = new Array(A13a,A13b, A18, A19, A20a, A23,A23a,A24, A25,A26);
 A23.surr = new Array(A22, A18);
 A23a.surr = new Array(A22, A25);
 A23b.surr = new Array(); //nothing 
 A23c.surr = new Array(A24, A30);
 A23d.surr = new Array(A24);
-A24.surr = new Array(A13c,A15b, A30,A23c,A23d, A25, A26,A26b);
-A25.surr = new Array(A19, A20a,A20b, A20c, A22, A23a, A24, A26, A28);
+A24.surr = new Array(A13c,A15b, A30, A22,A23c,A23d, A25, A26,A26b);
+A25.surr = new Array(A19, A20a,A20b, A22, A23a, A24, A26, A28);
 A26.surr = new Array(A22,A24,A25, A28);
 A26a.surr = new Array(A30, A36);
 A26b.surr = new Array(A24, A30);
-A27.surr = new Array(A20,A20b,A21, A21a, A27b, A33);
-A27a.surr = new Array(A27b, A28, A29,A32);
-A27b.surr = new Array(A27, A27a);
-A28.surr = new Array(A20b,A20c,A21a,A25, A26, A27a, A30, A29,A31,A34);
+A27.surr = new Array(A20,A20b,A21, A21a,A33);
+A27a.surr = new Array(A28, A29,A32);
+A28.surr = new Array(A20b,A21a,A25, A26, A27a, A30, A29,A31,A34);
 A29.surr = new Array(A28, A32, A27a,A31,A34);
 A30.surr = new Array(A23c,A24, A26a,A26b, A28,A31b, A36);
 A31.surr = new Array(A28, A29,A32);
@@ -1679,23 +1506,22 @@ A31b.surr = new Array(A36, A30);
 A32.surr = new Array(A29, A31, A33, A34,A35, A27a, A36, A38b);
 A33.surr = new Array(A21a, A34a, A27, A39);
 A34.surr = new Array(A28,A29,A32);
-A34a.surr = new Array(A21a, A33, A35);
+A34a.surr = new Array(A21,A33,A35);
 A35.surr = new Array(A32, A34a, A40, A38);
 A36.surr = new Array(A26a, A30,A31b, A32, A38a, A41);
 A38.surr = new Array(A35, A40, A41);
 A38a.surr = new Array(A36, A41);
 A38b.surr = new Array(A32);
-A39.surr = new Array(A33, A40, A40a, B2, B6); //Connected to B
-A40.surr = new Array(A35, A38, A39, A40a, A41,B0, B2, B5);//Connected to B
-A40a.surr = new Array(A39, A40);
+A39.surr = new Array(A33, A40, B6); //Connected to B
+A40.surr = new Array(A35, A38, A39, A41,B0, B2, B5);//Connected to B
 A41.surr = new Array(A40, A36, A38, B3, B5, B13a, C3);//Connected to C //Connected to B
 
 
 
 B0.surr = new Array(A40, B1, B2, B6, B7a);
 B1.surr = new Array(B0, B2, B6, B7, B7a, B9);
-B2.surr = new Array(A39, A40, B0, B1, B4, B5, B6, B7a, B7b);
-B3.surr = new Array(A41, B12, B13a, B17, B17a, B27, C3);
+B2.surr = new Array(A40, B0, B1, B4, B5, B6, B7a, B7b);
+B3.surr = new Array(A41, B12, B13a, B17, B31);
 B4.surr = new Array(B2, B5, B9, B7b, B11, B31);
 B5.surr = new Array(A40, A41, B2, B4, B7a);
 B6.surr = new Array(A39, B0, B1, B2, B6a, B7d);
@@ -1712,16 +1538,15 @@ B9.surr = new Array(B1, B4, B7, B9a);
 B9a.surr = new Array(B7b, B7e, B8, B9, B10);
 B10.surr = new Array(B9a, B12, B17, B7f);
 B11.surr = new Array(B12, B4, B7c, B13);
-B12.surr = new Array(B3, B7c, B10, B11, B13, B17, B30a, C3);
+B12.surr = new Array(B3, B7c, B10, B11, B13, B17, B30a, B31);
 B13.surr = new Array(B12, B17);
 B13a.surr = new Array(A41, B3);
 B14.surr = new Array(B15, B19);
 B14a.surr = new Array(B16, B15);
 B14b.surr = new Array(B6, B6a, B8);
-B15.surr = new Array(B7f, B8, B16, B18, B19, B20, B30);
+B15.surr = new Array(B7f, B8, B14, B16, B18, B19, B20, B30);
 B16.surr = new Array(B14a, B15, B18, B19, B20, B22);
-B17.surr = new Array(B3, B10, B12, B13, B17a, B27, B30a, C3);
-B17a.surr = new Array(B3, B17, B31, C3);
+B17.surr = new Array(B3, B10, B12, B13, B21, B30a, B31);
 B18.surr = new Array(B15, B16, B20, B24, B26x, B30);
 B19.surr = new Array(B14, B15, B16, B20a, B21, B30);
 B20.surr = new Array(B15, B16, B18);
@@ -1736,12 +1561,12 @@ B26x.surr = new Array(B18);
 B26xa.surr = new Array(B22, B24, B25);
 B26.surr = new Array(B25, B33, B37); //check B37
 B26a.surr = new Array(B28, B29, B45); //check B45
-B27.surr = new Array(B20b, B21, B28, B29, B31, B40, B41, C3); //check B41
+B27.surr = new Array(B20b, B21, B28, B29, B31, B41); //check B41
 B28.surr = new Array(B20b, B22, B27, B29, B31, B42, B45); // check B42 B45
 B29.surr = new Array(B20b, B26a, B27, B28, B42, B45); // check B42 B45
 B30.surr = new Array(B15, B18, B19);
 B30a.surr = new Array(B12, B17);
-B31.surr = new Array(B12, B17a, B21, B27, B28, B45);
+B31.surr = new Array(B3, B4, B12, B17, B21, B27, B28, B41); //check B41
 B32.surr = new Array(B24, B25, B34, B36); //check B36
 B33.surr = new Array(B25, B26, B34);
 B34.surr = new Array(B25, B32, B33, B35, B36); // check B36
@@ -1753,10 +1578,9 @@ B37.surr = new Array(B26, B25, B38, B39, B47, B46, B26xa);
 B38.surr = new Array(B36, B35, B37, B39, B57, B58);
 B39.surr = new Array(B38, B37, B37, B57, B60, B48); //ADDED B60 B48
 B39a.surr = new Array(B48, B47);
-B40.surr = new Array( B41, B27, B40b);
-B40a.surr = new Array(B40b, B42, B53);
-B40b.surr = new Array(B40, B40a);
-B41.surr = new Array(B27, B40, B44b, C9, C11);
+B40.surr = new Array( B41, B27, B31);
+B40a.surr = new Array(B42, B53);
+B41.surr = new Array(B27, B31, B40, B44b, C9, C11);
 B42.surr = new Array(B29, B43, B53, B40a, B44a); // ADDED B44a
 B43.surr = new Array( B42, B53, B29);
 B43a.surr =  new Array(B51, B48);
@@ -1765,78 +1589,65 @@ B43c.surr = new Array(B51, B64, B49); // ADDED B49
 B44.surr = new Array(B53, B52);
 B44a.surr = new Array(B42, B53);
 B44b.surr = new Array(B41);
-B45.surr = new Array(B29, B28, B31, B46, B26a);
+B45.surr = new Array(B29, B28, B46, B26a);
 B46.surr = new Array(B45, B47, B37);
 B47.surr = new Array(B37, B43b, B46, B48, B39a);
 B48.surr = new Array(B47, B49, B39a, B43a, B68b, B43b, B39);// added B68b B43b
-B49.surr = new Array(B48, B50, B68b, B43c, B68, B51, B49a);// added B68,B51
-B49a.surr = new Array(B49, B68);
+B49.surr = new Array(B48, B50, B68b, B43c, B68, B51);// added B68,B51
 B50.surr = new Array(B60, B49, B68, B58, B70);//added B70
 B51.surr = new Array(B43a, B52, B49, B43c);
 B52.surr = new Array(B51, B53, B44);
-B53.surr = new Array(B42, B52, B40a, B44a, B44, B43);
+B53.surr = new Array(B42, B52, B40a, B44a, B44, B43);// ADDED B44a, B44, B43
 B54.surr = new Array(B55, B24, B36,B35a);
 B55.surr = new Array(B56, B54, B34, B35a);
-B56.surr = new Array( B55, B57, B62, B63, B65, B59b); 
-B57.surr = new Array(B38, B56, B58, B59, B35b, B59b, B39); 
+B56.surr = new Array( B55, B57, B62, B63, B65, B59b); // ADDED B65, B59b
+B57.surr = new Array(B38, B56, B58, B59, B35b, B59b, B39); // ADDED 39
 B58.surr = new Array(B38, B57, B50, B68, B59a, B68, B60);// ADDED B60
 B59.surr = new Array(B57);
 B59a.surr = new Array(B60, B58, B61);
 B59b.surr = new Array(B57, B56);
-B60.surr = new Array(B60a, B61, B58, B50, B67, B59a, B68, B39, B70); //added B70
-B60a.surr = new Array(B60, B61);
-B61.surr = new Array(B60, B61a, B62, B66, B64, B67, B63, B59a); // ADDED B63 B59a
-B61a.surr = new Array(B61, B62, B64 );
-B62.surr = new Array(B66, B66a, B61, B61a, B63, B64, B71, B65, B56); //added B65 B56
+B60.surr = new Array(B61, B58, B50, B67, B59a, B68, B39, B70); //added B70
+B61.surr = new Array(B60, B62, B66, B64, B67, B63, B59a); // ADDED B63 B59a
+B62.surr = new Array(B66, B66a, B61, B63, B64, B63, B71, B65, B56); //added B65 B56
 B63.surr = new Array(B66, B61, B62, B64); // ADDED B64
 B63a.surr = new Array(B66, B65,B66a); // added B66a
-B64.surr = new Array(B63, B61, B61a, B66, B62, B43c, B64a); // ADDED B62, B43c
-B64a.surr = new Array(B71, B64);
+B64.surr = new Array(B63, B61, B66, B62, B43c); // ADDED B62, B43c
+B64a.surr = new Array(B71, B69);
 B65.surr = new Array(B62, B71, B56, B63a, B66, B66a);
 B66.surr = new Array(B63a, B65, B64, B63, B62, B61); // ADDED B64, B63, 62, 61
-B66a.surr = new Array(B63a, B65, B62);
+B66a.surr = new Array(B63a, B65, B62); // ADDED B62
 B67.surr = new Array(B60, B61);
-B68.surr = new Array(B50, B49, B49a, B60, B58); 
+B68.surr = new Array(B50, B49, B60, B58); //ADDED B60, B58
 B68b.surr = new Array(B48, B49);
-B69.surr = new Array(B51, B70, B64a); 
+B69.surr = new Array(B51, B70, B64a); // ADDED B64a
 B70.surr = new Array(B50, B69, B60, B71);
-B71.surr = new Array(B64a, B65, B70, B62);
+B71.surr = new Array(B64a, B65, B70, B62); // ADDED B62
 
 
-C1.surr=new Array(C1a, C1b, C2,C3,C5,C6,C13);
-C1a.surr=new Array(C1,C1b, C2,C5);
-C1b.surr = new Array(C1, C1a);
-C2.surr=new Array(C1,C1a,C4, C6,C13);
-C3.surr=new Array(B3, B12, B17, B17a, B27, C1, A41);//Connected to A Connected to B
-C4.surr=new Array(C2, C4a, C4b, C6f, C16);
-C4a.surr=new Array(C4, C4b);
-C4b.surr = new Array(C4, C4a, C4c);
-C4c.surr = new Array(C4b);
+C1.surr=new Array(C1a,C2,C3,C5,C6,C13);
+C1a.surr=new Array(C1,C2,C5);
+C2.surr=new Array(C1,C1a,C4);
+C3.surr=new Array(C1, A41);//Connected to A Connected to B
+C4.surr=new Array(C2, C4a, C16);
+C4a.surr=new Array(C4);
 C5.surr=new Array(C1,C1a);
-C6.surr=new Array(C1,C2, C6a,C6b,C6c,C6d,C7, C7a, C12);
+C6.surr=new Array(C1,C6a,C6b,C6c,C6d,C7,C12);
 C6a.surr=new Array(C6);
-C6b.surr=new Array(C6, C6bx);
-C6bx.surr = new Array(C6b);
+C6b.surr=new Array(C6);
 C6c.surr=new Array(C6,C12);
-C6d.surr=new Array(C6, C6e, C6f);
-C6e.surr = new Array(C6d);
-C6f.surr = new Array(C4, C6d);
+C6d.surr=new Array(C6);
 C7.surr=new Array(C6,C7a,C7b,C8);
 C7a.surr=new Array(C7);
 C7b.surr=new Array(C7);
 C8.surr=new Array(C7,C9,C10);
 C9.surr= new Array(B41, C10,C8);
-C10.surr=new Array(C6, C9,C8,C11);
+C10.surr=new Array(C9,C8,C11);
 C11.surr=new Array(B41, C10);//Connected to B
 C12.surr=new Array(C10,C6c,C6);
-C13.surr=new Array(C1,C2,C14);
+C13.surr=new Array(C1,C14);
 C14.surr=new Array(C13,C15,C17);
-C15.surr=new Array(C14,C15a,C16c, C17);
-C16.surr=new Array(C15,C16a,C4, C16b, C16c);
+C15.surr=new Array(C14,C15a,C17);
+C16.surr=new Array(C15,C16a,C4);
 C16a.surr=new Array(C16);
-C16b.surr = new Array(); // somethin missing
-C16c.surr = new Array(C15, C16);
-C17.surr=new Array(C14,C15, C17a, C18);
-C17a.surr = new Array(C17);
-C18.surr=new Array(A0, C17, C19);
-C19.surr = new Array(C18);
+C17.surr=new Array(C14,C15,C18);
+C18.surr=new Array(A0, C17);

@@ -3,7 +3,7 @@ function reinitialize() {
           center: new google.maps.LatLng( 45.388081, -75.69602),
           zoom: 17
         };
-        alert ("building = " + DESTINATION.building + "lat " + DESTINATION.lat + " lng " + DESTINATION.lng);
+		alert("Hello");
         var map = new google.maps.Map(document.getElementById("map-canvas"),
             mapOptions);	
 		// 	You can enter any points here and it should draw the polyline.
@@ -13,8 +13,10 @@ function reinitialize() {
 		LocalDestination.lat = DESTINATION.lat;
 		LocalDestination.lng = DESTINATION.lng;
 		
+		
+		alert(LOCATION.lat);
 		var dest=LocalDestination;	// destination
-		var loc=C4;		// location
+		var loc =B9;     //LOCATION;		// location GET A BETTER LOCATION
 		
 		var myLatlng = new google.maps.LatLng(loc.lat,loc.lng);
 		var destLatlng= new google.maps.LatLng(dest.lat,dest.lng);
@@ -38,7 +40,7 @@ function reinitialize() {
 
 
 		while ( loc.building != dest.building ) {
-			count --;
+			
 	//Does the final array have a duplicate?
 	//Etc
 	
