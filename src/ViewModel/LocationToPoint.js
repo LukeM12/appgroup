@@ -1,11 +1,11 @@
  function FindClosestAssociatedPoint(loc, mainArr){		//takes in curr location, and the main array of all points
 	var closestPt = mainArr[0];
-	alert(mainArr[4].building);
+//	alert(mainArr[4].building);
 	var b = 10000;								
 	var shortDist;
 	var curr = mainArr.length;
 	var count = 0;
-	alert(curr + " is this");
+//	alert(curr + " is this");
 	//it maxes loop at around 80, divide it 3 times 
 	for(var i=0; i < 80;i++){					//till end of array
 		
@@ -17,7 +17,7 @@
 		count++;
 
 	}
-	alert("countr is "+ count);
+//	alert("countr is "+ count);
 	return closestPt;			//return the closest point of our object from the current location
 }
 
