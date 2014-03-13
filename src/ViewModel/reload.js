@@ -16,7 +16,7 @@ function reinitialize() {
 		
 	//	alert(LOCATION.lat);
 		var dest=LocalDestination;	// destination
-		var loc =B9;    
+		var loc =B59;    
 		//THIS IS WHERE IT SHOULD BE CHANGED TO LOCATION
 		 //LOCATION;		// location GET A BETTER LOCATION
 		
