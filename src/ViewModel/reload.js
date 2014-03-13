@@ -75,9 +75,9 @@ function reinitialize() {
 		var flightPath = new google.maps.Polyline({
 		path: pathArray,
 		geodesic: true,
-		strokeColor: '#FF0000',
-		strokeOpacity: 1.0,
-		strokeWeight: 2
+		strokeColor: '#FFFF',
+		strokeOpacity: 1.5,
+		strokeWeight: 3
 		});
 		
 		flightPath.setMap(map);
