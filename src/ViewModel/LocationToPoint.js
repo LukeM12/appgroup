@@ -1,14 +1,10 @@
- function FindClosestAssociatedPoint(loc, mainArr){		//takes in curr location, and the main array of all points
+ function FindClosestAssociatedPoint(loc, mainArr){		
 	var closestPt = mainArr[0];
-//	alert(mainArr[4].building);
 	var b = 10000;								
 	var shortDist;
 	var curr = mainArr.length;
 	var count = 0;
-//	alert(curr + " is this");
-	//it maxes loop at around 80, divide it 3 times 
-	for(var i=0; i < 80;i++){					//till end of array
-		
+	for(var i=0; i < curr-1;i++){		
 		shortDist = closest_pt_mark2(loc, mainArr[i]);		//shortDist is the distance calculated
 		if(shortDist<b){			//if its less than b 
 			b=shortDist;				//update b to shortest, so next loop it will compare to shortest

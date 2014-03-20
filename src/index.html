@@ -31,23 +31,46 @@
     <script src="ViewModel/ClosestPoint.js"> </script>
     <script src="ViewModel/GetPosition.js"></script>
     <script src="ViewModel/LocationToPoint.js"></script>
-    
+        <script>
+    	//Global variables go here
+    	var DESTINATION;//This is the global destination object
+    	var LOCATION;
+    </script>
    <script>
    
    function SetLocation(lat,lng){
       	var loc = new Object();
       	loc.lat = lat;
-      	loc.lng - lng;
-   		FindClosestAssociatedPoint(loc, ALLPOINTS);
-   		LOCATION = new Object();
-    	LOCATION.lat = lat;
-    	LOCATION.lng = lng;
+      	loc.lng = lng;
+   		LOCATION = FindClosestAssociatedPoint(loc, ALLPOINTS);
+   		alert("THis is the closest point");
+   		alert(LOCATION.name);
+   		
+   		//LOCATION = new Object();
+    	//LOCATION.lat = lat;
+    	//LOCATION.lng = lng;
     	}
     var local = new Object();
-	local.lat = 45.3875812;
-	local.lng = -75.6960202;    
-	var x = FindClosestAssociatedPoint(local, ALLPOINTS);
-	LOCATION = x;
+
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(setPosition);
+    }
+  else{x.innerHTML="Geolocation is not supported by this browser.";}
+  }
+function setPosition(position)
+  {
+   SetLocation(position.coords.latitude, position.coords.longitude);	
+  }
+  //SetLocation(45.386451,-75.697866);
+ getLocation();
+  
+
+
+	//var x = FindClosestAssociatedPoint(local, ALLPOINTS);
+	//LOCATION = x;
 	//alert(LOCATION.name);
    //getMyPos();
    </script>
@@ -71,11 +94,7 @@
     
 
     </script>
-    <script>
-    	//Global variables go here
-    	var DESTINATION;//This is the global destination object
-    	var LOCATION;
-    </script>
+
  	<!-- LOGIC-->
  	
  	
