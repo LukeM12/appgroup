@@ -1,7 +1,32 @@
 function reinitialize() {
-		var mapOptions = {
-          center: new google.maps.LatLng( 45.388081, -75.69602),
-          zoom: 17
+	var styleArray = [
+	                  {
+					    featureType: "all",
+					    elementType: "labels",
+					    stylers: [
+					      { visibility: "off" }
+					    ]
+					  },{
+					    featureType: "road",
+					    elementType: "labels",
+					    stylers: [
+					      { visibility: "on" }
+					    ]
+					  },{
+					    featureType: "landscape",
+					    elementType: "labels",
+					    stylers: [
+					      { visibility: "on" }
+					    ]
+					  }
+
+	                 ]
+	
+	var mapOptions = {
+          center: new google.maps.LatLng(DESTINATION.lat, DESTINATION.lng),
+          zoom: 17,
+          disableDefaultUI: true,
+          styles: styleArray
         };
 		//alert("Hello");
         var map = new google.maps.Map(document.getElementById("map-canvas"),
@@ -16,7 +41,7 @@ function reinitialize() {
 		
 	//	alert(LOCATION.lat);
 		var dest=LocalDestination;	// destination
-		var loc =LOCATION;;    
+		var loc =START;    
 		//THIS IS WHERE IT SHOULD BE CHANGED TO LOCATION
 		 //LOCATION;		// location GET A BETTER LOCATION
 		
@@ -81,8 +106,10 @@ function reinitialize() {
 		});
 		
 		flightPath.setMap(map);
-		layIconsNoBuilding(map);
-	layIcons(map);
+		if((icons%2) == 0){
+			layIconsBuilding(DESTINATION, map);
+		}
+		layIcons(map);
 		}
 		
 

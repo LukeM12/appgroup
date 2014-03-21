@@ -140,7 +140,7 @@ function layIconsBuilding(building, map){
 	var LocationSymbols=["AH","AA","AC","AP","AT","IH","TT","CB","CC","DT","FH","FR","GH","GR","GY","HP","HC","LH","LE","LS","LA","LX","ME","ML"
 						   ,"MB","MC","NB","NW","PA","PH","RB","RH","CO","RO","RU","SP","SR","SA","SC","SD","TC","TB","UC","VS"];
 	  //var holding the custom image name
-	  var image = 'icons/BuildingMarker.png';
+	  var image = 'icons/pin_blue.png';
 	  //for loop to traverse the locations array
 	for (var m =0; m<LocationSymbols.length;m++){
 		var BuildLocations = BuildingDataInfo[LocationSymbols[m]];//gets element from hashtable based on symbol input.
@@ -163,21 +163,22 @@ function layIconsNoBuilding(map){
 	var LocationSymbols=["AH","AA","AC","AP","AT","IH","TT","CB","CC","DT","FH","FR","GH","GR","GY","HP","HC","LH","LE","LS","LA","LX","ME","ML"
 						   ,"MB","MC","NB","NW","PA","PH","RB","RH","CO","RO","RU","SP","SR","SA","SC","SD","TC","TB","UC","VS"];
 	  //var holding the custom image name
-	  var image = 'icons/BuildingMarker.png';
+	  var image = 'icons/pin_blue.png';
+	  
+	  
 	  //for loop to traverse the locations array
-	
 	for (var k =0; k<LocationSymbols.length;k++){
 
 		var BuildLocations = BuildingDataInfo[LocationSymbols[k]];//gets element from hashtable based on symbol input.
 		  var myLatLng = new google.maps.LatLng(BuildLocations.lat,BuildLocations.lng);//creates a latlng 
 		  
 		  //TODO Take out the part that lays the icons 
-		  /*marker = new google.maps.Marker({//creates a new marker
+		  marker = new google.maps.Marker({//creates a new marker
 			  position: myLatLng,//sets position
 			  map: map,//sets which map to mark on
 			  icon: image//sets what icon image to use.
 			  //title: BuildLocations.Name
-		  });*/
+		  });
 
 	}
 }
@@ -247,10 +248,35 @@ function layIconsParking(map){
 
 
 function dropdownMenu() {
+	var styleArray = [
+	                  {
+					    featureType: "all",
+					    elementType: "labels",
+					    stylers: [
+					      { visibility: "off" }
+					    ]
+					  },{
+					    featureType: "road",
+					    elementType: "labels",
+					    stylers: [
+					      { visibility: "on" }
+					    ]
+					  },{
+					    featureType: "landscape",
+					    elementType: "labels",
+					    stylers: [
+					      { visibility: "on" }
+					    ]
+					  }
+
+	                 ]
+	
 	var myLatlng = new google.maps.LatLng(45.385081, -75.69602);
 	  var mapOptions = {
 		zoom: 17,
-		center: myLatlng
+		center: myLatlng,
+	    disableDefaultUI: true,
+	    styles: styleArray
 	  };
 	  
 	map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
@@ -259,37 +285,89 @@ function dropdownMenu() {
 	var finalLocationAcr = mylist.value;
 	var building = BuildingDataInfo[finalLocationAcr];
 	DisplayLocationInformation(building, map);
-	layIconsBuilding(building, map);
-	//layIcons(map);
+	//layIconsBuilding(building, map);
+	layIcons(map);
 }
 
 /*
  * This function imitates the initialize function to run the clickable polygons
  */
-function refreshPage(building){
+function refreshPage(building, map){
+	var styleArray = [
+	                  {
+					    featureType: "all",
+					    elementType: "labels",
+					    stylers: [
+					      { visibility: "off" }
+					    ]
+					  },{
+					    featureType: "road",
+					    elementType: "labels",
+					    stylers: [
+					      { visibility: "on" }
+					    ]
+					  },{
+					    featureType: "landscape",
+					    elementType: "labels",
+					    stylers: [
+					      { visibility: "on" }
+					    ]
+					  }
 
-	//TODO Everytime someone clicks something, even if theyve moved, it goes back to this position.
-	//TODO NEEDS TO BE FIXED
-	var myLatlng = new google.maps.LatLng(45.385081, -75.69602);
+	                 ]
+	
+	var myLatlng = map.getCenter();
+	//var myLatlng = new google.maps.LatLng(45.385081, -75.69602);
 	  var mapOptions = {
 		zoom: 17,
-		center: myLatlng
+		center: myLatlng,
+	    disableDefaultUI: true,
+	    styles: styleArray
 	  };
 	  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 	  DisplayLocationInformationNoPin (building, map);
-	  layIconsNoBuilding(map);
+	  if((icons%2) == 0){
+			layIconsNoBuilding(map);
+	  }
 	  layIcons(map);
 }
 
 function initialize() {
+	var styleArray = [
+	                  {
+					    featureType: "all",
+					    elementType: "labels",
+					    stylers: [
+					      { visibility: "off" }
+					    ]
+					  },{
+					    featureType: "road",
+					    elementType: "labels",
+					    stylers: [
+					      { visibility: "on" }
+					    ]
+					  },{
+					    featureType: "landscape",
+					    elementType: "labels",
+					    stylers: [
+					      { visibility: "on" }
+					    ]
+					  }
+
+	                 ]
+	      
 	var myLatlng = new google.maps.LatLng(45.385081, -75.69602);
 	  var mapOptions = {
 		zoom: 17,
-		center: myLatlng
+		center: myLatlng,
+	    disableDefaultUI: true,
+	    styles: styleArray
 	  };
 	  
 	map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-	layIconsNoBuilding(map);
+	if((icons%2) == 0){
+		layIconsNoBuilding(map);
+	}
 	layIcons(map);
 }
 
