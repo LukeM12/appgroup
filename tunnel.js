@@ -176,10 +176,10 @@ var T27 = new Object({
 		
 ////Mazhar Start
 var T28 = new Object({
-			lat: 45.385098,
-			lng: -75.697216,
-			name: "T28",
-			building: "MC"
+	lat: 45.385098,
+	lng: -75.697216,
+	name: "T28",
+	building: "MC"
 		});
 var T29 = new Object({
 	lat: 45.385042,
@@ -239,7 +239,7 @@ var T38 = new Object({
 	lat:45.382917,
 	lng: -75.698713,
 	name: "T38",
-	building: "null"
+	building: "AT"
 });
 var T39 = new Object({
 	lat:45.382736,
