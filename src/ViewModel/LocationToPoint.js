@@ -1,24 +1,26 @@
- function FindClosestAssociatedPoint(loc, mainArr){		
+//Function to find closest Node Object. 
+function FindClosestAssociatedPoint(loc, mainArr){		
 	var closestPt = mainArr[0];
-	var b = 10000;								
+	var Inf = 10000;//finite number to represent infinite distance								
 	var shortDist;
 	var curr = mainArr.length;
 	var count = 0;
+	
 	for(var i=0; i < curr-1;i++){		
 		shortDist = closest_pt_mark2(loc, mainArr[i]);		//shortDist is the distance calculated
-		if(shortDist<b){			//if its less than b 
-			b=shortDist;				//update b to shortest, so next loop it will compare to shortest
+		if(shortDist<Inf){			//if its less than INF 
+			Inf=shortDist;				//update INF to shortest, so next loop it will compare to shortest
 			closestPt=mainArr[i];		//update our point, so it finds the closest		
 		}
 		count++;
 
 	}
-//	alert("countr is "+ count);
+	
 	return closestPt;			//return the closest point of our object from the current location
 }
 
-function closest_pt_mark2(desti , loca)
-	{
+function closest_pt_mark2(desti , loca){
+	
 		var length = loca.surr.length;	
 		var dist = 100000;		// initialise dist to high arbitrary number
 		var closest = desti; 	// set closest point to the destination

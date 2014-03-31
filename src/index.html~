@@ -173,7 +173,7 @@
     <script src="View/load.js"></script> 
     <script src="View/reload.js"></script>
     
-			<!--ViewModel (Behavior)-->
+			<!--ViewModel (The behavior of the App)-->
 	<!--Get the User GPS, and map it to our graph -->
 	<script src="ViewModel/GetPosition.js"></script>
     <script src="ViewModel/LocationToPoint.js"></script>

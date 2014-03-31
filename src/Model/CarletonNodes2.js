@@ -38,11 +38,10 @@ var A3 = new Object({
 			building: "null"
 		});
 		
-//Near north of Carleton Conference and Housing Centre	
-//edited by Zach		
+//Near north of Carleton Conference and Housing Centre			
 var A4 = new Object({
-			lat: 45.388195,
-			lng: -75.697333,
+			lat: 45.388095,
+			lng: -75.697343,
 			name: "A4",
 			building: "null"
 		});
@@ -169,8 +168,6 @@ var A11 = new Object({
 			name: "A11", 
 			building: "null"
 		});
-	
-		
 //
 var A12 = new Object({
 			lat: 45.38753,
@@ -249,13 +246,6 @@ var A15b = new Object({
 			name: "A15b", 
 			building: "null"
 		});
-//Added by ZACH
-var A15c = new Object({
-			lat: 45.386809,
-			lng: -75.696641,
-			name: "A15c", 
-			building: "null"
-		});		
 //
 var A16 = new Object({
 			lat: 45.387022,
@@ -341,12 +331,6 @@ var A22 = new Object({
 			name: "A22", 
 			building: "null"
 		});
-var A22a = new Object({
-			lat: 45.386826,
-			lng: -75.697278,
-			name: "A22a", 
-			building: "null"
-		});		
 //
 var A23 = new Object({
 			lat: 45.386788,
@@ -384,15 +368,14 @@ var A23d = new Object({
 		});
 //
 var A24 = new Object({
-			lat: 45.386476,
+			lat: 45.386276,
 			lng: -75.696409,
 			name: "A24", 
 			building: "null"
 		});
-
 //
 var A25 = new Object({
-			lat: 45.386549,
+			lat: 45.386249,
 			lng: -75.697847,
 			name: "A25", 
 			building: "null"
@@ -441,7 +424,7 @@ var A27b = new Object({
 		});
 //
 var A28 = new Object({
-			lat: 45.386138,
+			lat: 45.386238,
 			lng: -75.697847,
 			name: "A28", 
 			building: "null"
@@ -482,13 +465,13 @@ var A31b = new Object({
 			building: "RH"
 		});
 //
-/*var A32 = new Object({
-			lat: 45.38601,
+var A32 = new Object({
+			lat: 45.38591,
 			lng: -75.697697,
 			name: "A32", 
 			building: "null"
 		});
-//*/
+//
 var A33 = new Object({
 			lat: 45.385726,
 			lng: -75.698866,
@@ -500,7 +483,7 @@ var A34 = new Object({
 			lat: 45.38591,
 			lng: -75.697697,
 			name: "A34", 
-			building: "null"
+			building: "LH"
 		});
 //
 var A34a = new Object({
@@ -517,25 +500,12 @@ var A35 = new Object({
 			building: "null"
 		});
 //
-var A35a = new Object({
-			lat: 45.385737,
-			lng: -75.697733,
-			name: "A35", 
-			building: "LH"
-		});
 var A36 = new Object({
 			lat: 45.385989,
 			lng: -75.696393,
 			name: "A36", 
 			building: "null"
 		});
-//Added by ZACH		
-var A37 = new Object({
-			lat: 45.385989,
-			lng:  -75.697278,
-			name: "A37", 
-			building: "null"
-		});		
 //
 var A38 = new Object({
 			lat: 45.385632,
@@ -617,14 +587,14 @@ var B3 = new Object({
 		});
 //
 var B4 = new Object({
-			lat:  45.38517,
-			lng: -75.697308,
+			lat: 45.385042,
+			lng: -75.697469,
 			name: "B4", 
-			building: "MC"
+			building: "null"
 		});
 //
 var B5 = new Object({
-			lat: 45.385421,
+			lat: 45.385321,
 			lng: -75.697308,
 			name: "B5", 
 			building: "null"
@@ -694,10 +664,10 @@ var B7f = new Object({
 		});
 //
 var B8 = new Object({
-			lat: 45.384382,
-			lng: -75.698427,
+			lat: 45.384432,
+			lng: -75.698327,
 			name: "B8", 
-			building: "CB"
+			building: "null"
 		});
 //
 var B9 = new Object({
@@ -715,8 +685,8 @@ var B9a = new Object({
 		});
 //
 var B10 = new Object({
-			lat: 45.384412,
-			lng: -75.697306,
+			lat: 45.384432,
+			lng: -75.697436,
 			name: "B10", 
 			building: "null"
 		});
@@ -729,7 +699,7 @@ var B11 = new Object({
 		});
 //
 var B12 = new Object({
-			lat: 45.384614,
+			lat: 45.384714,
 			lng: -75.696932,
 			name: "B12", 
 			building: "null"
@@ -741,35 +711,35 @@ var B13 = new Object({
 			name: "B13", 
 			building: "MC"
 		});
-////edited by Zach
+//
 var B13a = new Object({
 			lat: 45.385358,
 			lng:-75.696755,
 			name: "B13a", 
 			building: "MC"
 		});
-////edited by Zach
+//
 var B14 = new Object({
-			lat: 45.384301,
-			lng:-75.697562,
+			lat: 45.385358,
+			lng:-75.696755,
 			name: "B14", 
-			building: "null"
+			building: "CB"
 		});
 //
 var B14a = new Object({
-			lat: 45.38413,
-			lng:-75.698266,
+			lat: 45.383994,
+			lng:-75.698466,
 			name: "B14a", 
 			building: "CB"
 		});
-/*
+//
 var B14b = new Object({
-			lat: 45.383794,
-			lng:-75.698466,
+			lat: 45.385358,
+			lng:-75.696755,
 			name: "B14b", 
 			building: "CB"
 		});
-*/
+//
 var B15 = new Object({
 			lat: 45.38413,
 			lng:-75.697994,
@@ -785,8 +755,8 @@ var B16 = new Object({
 		});
 //
 var B17 = new Object({
-			lat: 45.384238,
-			lng:-75.697004,
+			lat: 45.384138,
+			lng:-75.696954,
 			name: "B17", 
 			building: "null"
 		});
@@ -833,12 +803,6 @@ var B20b = new Object({
 			building: "UC"
 		});
 //
-var B20c = new Object({
-			lat: 45.38358,
-			lng: -75.697361,
-			name: "B20a", 
-			building: "null"
-		});
 var B21 = new Object({
 			lat: 45.383045,
 			lng: -75.697286,
@@ -854,12 +818,6 @@ var B21a = new Object({
 		});
 //
 var B22 = new Object({
-			lat: 45.383241,
-			lng: -75.698069,
-			name: "B22", 
-			building: "null"
-		});
-var B22a = new Object({
 			lat: 45.383241,
 			lng: -75.698069,
 			name: "B22", 
@@ -1180,7 +1138,7 @@ var B51 = new Object({
 		});
 //
 var B52 = new Object({
-			lat: 45.382136,
+			lat: 45.382156,
 			lng: -75.696535,
 			name: "B52", 
 			building: "null"
@@ -1376,22 +1334,14 @@ var B71 = new Object({
 			name: "B71", 
 			building: "null"
 		});
-//ZACH ADDED POINT 72
-var B72 = new Object({
-			lat: 45.384691,
-			lng: -75.696385,
-			name: "B72", 
-			building: "null"
-		});
-//
-		
+
 
 ////////////////////////////////////////////////
 	
 		
 var C1=new Object({
-		lat:45.385121,
-		lng: -75.694762,
+		lat:45.385061,
+		lng: -75.695092,
 		name: "C1",
 		building:"null"
 	});
@@ -1426,8 +1376,8 @@ var C3=new Object({
 	});
 
 var C4=new Object({
-	lat:45.385879,
-	lng: -75.69391,
+	lat:45.385969,
+	lng: -75.69396,
 	name: "C4",
 	building:"null"
 });
@@ -1436,7 +1386,7 @@ var C4a=new Object({
 	lat: 45.386099,
 	lng: -75.693665,
 	name: "C4a",
-	building:"null"
+	building:"GY"
 });
 
 
@@ -1453,12 +1403,6 @@ var C4c=new Object({
 	name: "C4c",
 	building:"FH"
 });
-var C4d=new Object({
-	lat: 45.386769,
-	lng: -75.69391,
-	name: "C4d",
-	building:"null"
-});
 
 var C5=new Object({
 	lat: 45.385411,
@@ -1469,7 +1413,7 @@ var C5=new Object({
 
 var C6=new Object({
 	lat: 45.384153,
-	lng: -75.694236,
+	lng: -75.694336,
 	name: "C6",
 	building:"null"
 });
@@ -1485,7 +1429,7 @@ var C6b=new Object({
 	lat: 45.384371,
 	lng: -75.693767,
 	name: "C6b",
-	building:"TT"
+	building:"null"
 });
 
 var C6bx=new Object({
@@ -1552,8 +1496,8 @@ var C8=new Object({
 });
 
 var C9=new Object({
-	lat: 45.382472,
-	lng:-75.695777,
+	lat: 45.382352,
+	lng: -75.69514,
 	name: "C9",
 	building:"null"
 });
@@ -1581,7 +1525,7 @@ var C12=new Object({
 
 var C13=new Object({
 	lat: 45.385788,
-	lng: -75.69509,
+	lng: -75.69499,
 	name: "C13",
 	building:"null"
 });
@@ -1592,12 +1536,7 @@ var C14=new Object({
 	name: "C14",
 	building:"null"
 });
-var C14a=new Object({
-	lat: 45.386422,
-	lng: -75.695301,
-	name: "C14a",
-	building:"null"
-});
+
 var C15=new Object({
 	lat: 45.387378,
 	lng: -75.694357,
@@ -1669,62 +1608,6 @@ var C19=new Object({
 	name: "C19",
 	building:"P7"
 });
-//ADDED BY ZACH
-var C20=new Object({
-	lat: 45.383986,
-	lng: -75.694043,
-	name: "C20",
-	building:"null"
-});
-//ADDED BY ZACH
-var C21=new Object({
-	lat: 45.38312,
-	lng:  -75.69371,
-	name: "C21",
-	building:"null"
-});
-
-var C22=new Object({
-	lat: 45.382292,
-	lng: -75.695255,
-	name: "C22",
-	building:"null"
-});
-var C23=new Object({
-	lat: 45.386209,
-	lng: -75.692841,
-	name: "C23",
-	building:"null"
-});
-var C24=new Object({
-	lat: 45.385251,
-	lng: -75.693665,
-	name: "C24",
-	building:"null"
-});
-var C25=new Object({
-	lat: 45.384296,
-	lng: -75.693065,
-	name: "C25",
-	building:"null"
-});
-var C26=new Object({
-	lat: 45.386936,
-	lng: -75.693381,
-	name: "C26",
-	building:"null"
-});
-var C27=new Object({
-	lat:  45.383640,
-	lng: -75.694399,
-	name: "C27",
-	building:"null"
-});
-
-
-
-
-
 
 
 
@@ -1733,11 +1616,11 @@ A0a.surr = new Array(A0, A1);
 A1.surr = new Array(A0, A0a, A2, A3, A4);
 A2.surr = new Array(A1, A3, A5, A5a, A6,  A7);
 A3.surr = new Array(A1, A2, A4, A5, A5a, A6, A7);
-A4.surr = new Array(A0, A1, A3, A8,A15);//edited by Zach
-A5.surr = new Array(A2, A3, A5a, A5b, A6);//edited by Zach
+A4.surr = new Array(A0, A1, A3, A8);
+A5.surr = new Array(A2, A3, A5a, A5b, A5c, A6);
 A5a.surr = new Array(A2, A3, A5, A5b, A6,A6a ,A7 );
 A5b.surr = new Array(A5,A5a, A5c, A6, A6a, A9,A16,A17);
-A5c.surr = new Array( A5b, A9);//edited by Zach
+A5c.surr = new Array(A5, A5b, A9);
 A6.surr = new Array(A2, A3, A5, A5a, A5b, A6d, A7);
 A6a.surr = new Array(A5a, A5b, A6d, A9, A16);
 A6b.surr = new Array(A6d, A16, A17, A18);
@@ -1750,122 +1633,115 @@ A8b.surr = new Array(A10, A11, A12, A13);
 A8c.surr = new Array(A12, A13,A14);
 A9.surr = new Array(A5b, A5c, A6a, A16, A17);
 A10.surr = new Array(A6c, A7, A8b, A11, A12, A13);
-A11.surr = new Array(A6c,A8b, A10,A12, A13a, A17, A18);
-
-A12.surr = new Array(A6c, A8a, A8b, A8c, A10,A11, A13,A14);
+A11.surr = new Array(A6c,A8b, A10, A12, A13a, A17, A18);
+A12.surr = new Array(A6c, A8a, A8b, A8c, A10, A11, A13);
 A13.surr = new Array(A6c,A8b,A8c,A10, A12, A13e);
 A13a.surr = new Array(A11, A18, A22, A13e);
-A13b.surr = new Array(A13c, A22, A13e,A22a);
-A13c.surr = new Array(A13b, A13e,A15c,A22a);//edited by Zach
-A13d.surr = new Array(A13, A14, A13e/*,A15b*/);//edited by Zach
+A13b.surr = new Array(A13c, A22, A13e);
+A13c.surr = new Array(A13b, A24, A13e);
+A13d.surr = new Array(A13, A14, A13e, A15b);
 A13e.surr = new Array(A13, A13a, A13b, A13c, A13d, A15b);
 A14.surr = new Array(A13d, A8c, A15a);
-A15.surr = new Array(A0,A4, A15a);//edited by Zach
+A15.surr = new Array(A0, A1, A4, A15a);
 A15a.surr = new Array(A14, A15, A15b);
-A15b.surr = new Array( A15a,A15c, A24);//edited by Zach
-A15c.surr = new Array(A13c,A15b,A22a,A23c,A23d,A24,A26a,A26b);//Added array by Zach
+A15b.surr = new Array(A13e, A15a, A24);
 A16.surr = new Array(A5b,A6a, A6b, A9, A17, A21);
-A17.surr = new Array(A5b, A6b, A9, A11, A16, A18);
-A18.surr = new Array(A6b, A11, A13a, A17, A19, A22);
-A19.surr = new Array( A18, A22,A25);
-A19a.surr = new Array( A21);
+A17.surr = new Array(A5b, A6b, A9, A11, A16, A18, A19,A19a);
+A18.surr = new Array(A6b, A11, A13a, A17, A19, A22, A23);
+A19.surr = new Array(A17, A18, A22,A25);
+A19a.surr = new Array(A17, A21);
 A20.surr = new Array(A21, A20a, A27);
 A20a.surr = new Array(A20, A22, A25);
-A20b.surr = new Array(A27, A29);
-A20c.surr = new Array(A20b, A25, A29);
-A21.surr = new Array(A16, A19a, A20, A21a);
-A21a.surr = new Array(A21, A27, A29, A33, A34a);
-A22.surr = new Array(A13a,A13b, A18, A19, A20a,A22a, A23,A23a, A25/*,A26*/);
-A22a.surr = new Array(A13b,A13c,A15c,A22,A23,A23d);
-A23.surr = new Array(A22,A22a);
+A20b.surr = new Array(A27, A28, A25);
+A20c.surr = new Array(A20b, A25, A28);
+A21.surr = new Array(A16, A19a, A20, A21a, A27);
+A21a.surr = new Array(A21, A27, A28, A33, A34a);
+A22.surr = new Array(A13a,A13b, A18, A19, A20a, A23,A23a, A25,A26);
+A23.surr = new Array(A22, A18);
 A23a.surr = new Array(A22, A25);
-//A23b.surr = new Array(A25); //nothing 
-A23c.surr = new Array(A15c,A24, A30);//edited by Zach
-A23d.surr = new Array(A15c,A22a);//edited by Zach
-A24.surr = new Array(A15b,A15c, A30,A23c,A26b,A36);//edited by Zach //Added A36
-A25.surr = new Array(A19, A20a,A20c, A22, A23a,A26,A29);//edited by Zach
-A26.surr = new Array(A25, A29);//edited by Zach
-A26a.surr = new Array(A15c,A30, A36);
-A26b.surr = new Array(A15c,A24, A30);
-A27.surr = new Array(A20,A20b, A21a, A27b);//edited by Zach
-A27a.surr = new Array(A27b, A29);
+A23b.surr = new Array(); //nothing 
+A23c.surr = new Array(A24, A30);
+A23d.surr = new Array(A24);
+A24.surr = new Array(A13c,A15b, A30,A23c,A23d, A25, A26,A26b);
+A25.surr = new Array(A19, A20a,A20b, A20c, A22, A23a, A24, A26, A28);
+A26.surr = new Array(A22,A24,A25, A28);
+A26a.surr = new Array(A30, A36);
+A26b.surr = new Array(A24, A30);
+A27.surr = new Array(A20,A20b,A21, A21a, A27b, A33);
+A27a.surr = new Array(A27b, A28, A29,A32);
 A27b.surr = new Array(A27, A27a);
-//A28.surr = new Array(A20b,A20c,A21a,A25, A26, A27a, /*A30,*/ A29,A31/*,A34*/);//edited by Zach
-A29.surr = new Array(A20b,A21a,A25,A26,A27a,A31,A34,A37);
-A30.surr = new Array(A23c,A24, A26a,A26b,/* A28,*/A31b, A36);//edited by Zach
-A31.surr = new Array( A29);
-A31a.surr = new Array(A37);
+A28.surr = new Array(A20b,A20c,A21a,A25, A26, A27a, A30, A29,A31,A34);
+A29.surr = new Array(A28, A32, A27a,A31,A34);
+A30.surr = new Array(A23c,A24, A26a,A26b, A28,A31b, A36);
+A31.surr = new Array(A28, A29,A32);
+A31a.surr = new Array();
 A31b.surr = new Array(A36, A30);
-//A32.surr = new Array(A29, A31, A34,A27a,A37);//edited by Zach
-A33.surr = new Array(A21a, A34a,A39);//edited by Zach
-A34.surr = new Array(A29,A34a,A35,A37);
-A34a.surr = new Array(A21a, A33,A34);//edited by Zach
-A35.surr = new Array(A35a,A34, A40);//edited by Zach
-A35a.surr = new Array(A35);//edited by Zach
-A36.surr = new Array(A24,A26a, A30,A31b, /*A32,*/ A38a,A37, A41);//edited by Zach//Added A24
-A37.surr = new Array(A29,A31a,A34,A36,A38b);//Added by ZACH	
-A38.surr = new Array( A40, A41);
+A32.surr = new Array(A29, A31, A33, A34,A35, A27a, A36, A38b);
+A33.surr = new Array(A21a, A34a, A27, A39);
+A34.surr = new Array(A28,A29,A32);
+A34a.surr = new Array(A21a, A33, A35);
+A35.surr = new Array(A32, A34a, A40, A38);
+A36.surr = new Array(A26a, A30,A31b, A32, A38a, A41);
+A38.surr = new Array(A35, A40, A41);
 A38a.surr = new Array(A36, A41);
-A38b.surr = new Array(A37);//edited by Zach
+A38b.surr = new Array(A32);
 A39.surr = new Array(A33, A40, A40a, B2, B6); //Connected to B
 A40.surr = new Array(A35, A38, A39, A40a, A41,B0, B2, B5);//Connected to B
 A40a.surr = new Array(A39, A40);
-A41.surr = new Array(A40, A36, A38, B3, B5,B13a, C3);//edited by Zach //Connected to C //Connected to B
+A41.surr = new Array(A40, A36, A38, B3, B5, B13a, C3);//Connected to C //Connected to B
 
 
 
 B0.surr = new Array(A40, B1, B2, B6, B7a);
 B1.surr = new Array(B0, B2, B6, B7, B7a, B9);
-B2.surr = new Array(A39, A40, B0, B1, B4, B5, B7a, B7b);//edited by Zach
-B3.surr = new Array(A41, B12,B13a, B17a, B72);//edited by Zach
-B4.surr = new Array(B2, B5, B9, B7b);
+B2.surr = new Array(A39, A40, B0, B1, B4, B5, B6, B7a, B7b);
+B3.surr = new Array(A41, B12, B13a, B17, B17a, B27, C3);
+B4.surr = new Array(B2, B5, B9, B7b, B11, B31);
 B5.surr = new Array(A40, A41, B2, B4, B7a);
-B6.surr = new Array(A39, B0, B1,B6a, B7d);//edited by Zach
-B6a.surr = new Array(B6, B7d, B8,B18);//Zach added B18
+B6.surr = new Array(A39, B0, B1, B2, B6a, B7d);
+B6a.surr = new Array(B6, B7d, B8, B14b);
 B7.surr = new Array(B1, B9);
 B7a.surr = new Array (B0, B1, B2, B5);
 B7b.surr = new Array(B2, B4, B9, B9a);
-B7c.surr = new Array( B12);
-B7d.surr = new Array(B6, B6a,B8);
-B7e.surr = new Array( B9a,B15,B14a);
+B7c.surr = new Array(B11, B12);
+B7d.surr = new Array(B6, B6a, B9a);
+B7e.surr = new Array(B8, B9a);
 B7f.surr - new Array(B10, B15);
-B8.surr = new Array(B6a,B7d);
+B8.surr = new Array(B6a, B7e, B9a, B14b, B15);
 B9.surr = new Array(B1, B4, B7, B9a);
-B9a.surr = new Array(B7b, B7e, B9, B10);
-B10.surr = new Array(B9a, B12, B17, B7f,B14);
-//B11.surr = new Array(/*B12, B4, B7c, B13*/);
-B12.surr = new Array(B3, B7c, B10,B14, B17, B30a, B72);
-//B13.surr = new Array(B3,B12, B17);
-B13a.surr = new Array(A41, B3);//edited by Zach
-B14.surr = new Array(B10,B12,B15,B17);//edited by Zach
-B14a.surr = new Array(B16, B15,B7e);
-//B14b.surr = new Array(/*B3,/*B6,*/ B6a /*,B8*/);//edited by Zach
-B15.surr = new Array(B7e,B7f, B14,B14a, B16, B19,/* B20,*/ B30);
-B16.surr = new Array(B14a, B15, B18, B20, B22a);//edited by Zach
-B17.surr = new Array(B10, B12,B14, B17a, B27, B30a, B72);//edited by Zach
-B17a.surr = new Array(B3, B17, B31, B72);
-B18.surr = new Array(B6a,B16, B20, B24, B26x, B26xa/*, B30*/);//ZAch added B6a
-B19.surr = new Array( B15,B20a,B20c,B22,B30);//edited by Zach
-B20.surr = new Array(B16, B18);
-B20a.surr = new Array(B19,B22,B27);//edited by Zach
-B20b.surr = new Array(B27, B28);
-B20c.surr = new Array(B19,B22,B27);
-B21.surr = new Array(B27, B31);//edited by Zach
-B22.surr = new Array(B16,B19,B20a,B20c,B23,B28);//edited by Zach
-B22a.surra = new Array(B16,B28);//edited by Zach
-B23.surr = new Array(B22, B25);//edited by Zach
-B24.surr = new Array(B18, B25,B26x, B32, B54); //check B54//edited by Zach 
+B9a.surr = new Array(B7b, B7e, B8, B9, B10);
+B10.surr = new Array(B9a, B12, B17, B7f);
+B11.surr = new Array(B12, B4, B7c, B13);
+B12.surr = new Array(B3, B7c, B10, B11, B13, B17, B30a, C3);
+B13.surr = new Array(B12, B17);
+B13a.surr = new Array(A41, B3);
+B14.surr = new Array(B15, B19);
+B14a.surr = new Array(B16, B15);
+B14b.surr = new Array(B6, B6a, B8);
+B15.surr = new Array(B7f, B8, B16, B18, B19, B20, B30);
+B16.surr = new Array(B14a, B15, B18, B19, B20, B22);
+B17.surr = new Array(B3, B10, B12, B13, B17a, B27, B30a, C3);
+B17a.surr = new Array(B3, B17, B31, C3);
+B18.surr = new Array(B15, B16, B20, B24, B26x, B30);
+B19.surr = new Array(B14, B15, B16, B20a, B21, B30);
+B20.surr = new Array(B15, B16, B18);
+B20a.surr = new Array(B19, B21);
+B20b.surr = new Array(B27, B28, B29);
+B21.surr = new Array(B17, B19, B20a, B22, B27, B31);
+B22.surr = new Array(B16, B21, B23, B26xa, B28);
+B23.surr = new Array(B22, B25);
+B24.surr = new Array(B18, B25, B26xa, B32, B54); //check B54
 B25.surr = new Array(B23, B24, B26xa, B26, B32, B33,  B34, B36, B37); //check B36 B37
-B26x.surr = new Array(B18,B24);
-B26xa.surr = new Array(B18,B25);//edited by Zach
+B26x.surr = new Array(B18);
+B26xa.surr = new Array(B22, B24, B25);
 B26.surr = new Array(B25, B33, B37); //check B37
-B26a.surr = new Array(B45); //check B45
-B27.surr = new Array(B17,B20a,B20b,B20c, B21, B28, B40, B41); //check B41
-B28.surr = new Array(B20b, B22a, B27,B31, B42, B45); // check B42 B45
-//B29.surr = new Array(B20b, B26a, B27, B28, B42, B45); // check B42 B45
-B30.surr = new Array(B15,B19);
+B26a.surr = new Array(B28, B29, B45); //check B45
+B27.surr = new Array(B20b, B21, B28, B29, B31, B40, B41, C3); //check B41
+B28.surr = new Array(B20b, B22, B27, B29, B31, B42, B45); // check B42 B45
+B29.surr = new Array(B20b, B26a, B27, B28, B42, B45); // check B42 B45
+B30.surr = new Array(B15, B18, B19);
 B30a.surr = new Array(B12, B17);
-B31.surr = new Array(B17a, B21,/* B27,*/ B28,B42, B45);//edited by Zach
+B31.surr = new Array(B12, B17a, B21, B27, B28, B45);
 B32.surr = new Array(B24, B25, B34, B36); //check B36
 B33.surr = new Array(B25, B26, B34);
 B34.surr = new Array(B25, B32, B33, B35, B36); // check B36
@@ -1873,7 +1749,7 @@ B35.surr = new Array(B34, B36, B38); // check B36 B38
 B35a.surr = new Array(B54, B55);
 B35b.surr = new Array(B57);
 B36.surr = new Array(B25, B34, B33, B32, B35, B38, B54);
-B37.surr = new Array(B26, B25, B38, B39, B47, B46/*, B26xa*/);
+B37.surr = new Array(B26, B25, B38, B39, B47, B46, B26xa);
 B38.surr = new Array(B36, B35, B37, B39, B57, B58);
 B39.surr = new Array(B38, B37, B37, B57, B60, B48); //ADDED B60 B48
 B39a.surr = new Array(B48, B47);
@@ -1881,26 +1757,26 @@ B40.surr = new Array( B41, B27, B40b);
 B40a.surr = new Array(B40b, B42, B53);
 B40b.surr = new Array(B40, B40a);
 B41.surr = new Array(B27, B40, B44b, C9, C11);
-B42.surr = new Array(B28,B31, B43, B53, B40a, B44a); // ADDED B44a
-B43.surr = new Array( B42, B53);
+B42.surr = new Array(B29, B43, B53, B40a, B44a); // ADDED B44a
+B43.surr = new Array( B42, B53, B29);
 B43a.surr =  new Array(B51, B48);
 B43b.surr = new Array(B48, B47);
 B43c.surr = new Array(B51, B64, B49); // ADDED B49
-B44.surr = new Array(B53);
+B44.surr = new Array(B53, B52);
 B44a.surr = new Array(B42, B53);
-B44b.surr = new Array(B41,C9);//Added C9
-B45.surr = new Array(B28, B31, B46, B26a);
+B44b.surr = new Array(B41);
+B45.surr = new Array(B29, B28, B31, B46, B26a);
 B46.surr = new Array(B45, B47, B37);
 B47.surr = new Array(B37, B43b, B46, B48, B39a);
 B48.surr = new Array(B47, B49, B39a, B43a, B68b, B43b, B39);// added B68b B43b
 B49.surr = new Array(B48, B50, B68b, B43c, B68, B51, B49a);// added B68,B51
 B49a.surr = new Array(B49, B68);
 B50.surr = new Array(B60, B49, B68, B58, B70);//added B70
-B51.surr = new Array(B43a, B52, B49, B43c,B69);//edited by Zach
-B52.surr = new Array(B51,C9);//edited by Zach
-B53.surr = new Array(B42, B40a, B44a, B44, B43);//edited by Zach
+B51.surr = new Array(B43a, B52, B49, B43c);
+B52.surr = new Array(B51, B53, B44);
+B53.surr = new Array(B42, B52, B40a, B44a, B44, B43);
 B54.surr = new Array(B55, B24, B36,B35a);
-B55.surr = new Array(B56, B54,B35a);
+B55.surr = new Array(B56, B54, B34, B35a);
 B56.surr = new Array( B55, B57, B62, B63, B65, B59b); 
 B57.surr = new Array(B38, B56, B58, B59, B35b, B59b, B39); 
 B58.surr = new Array(B38, B57, B50, B68, B59a, B68, B60);// ADDED B60
@@ -1922,58 +1798,45 @@ B66a.surr = new Array(B63a, B65, B62);
 B67.surr = new Array(B60, B61);
 B68.surr = new Array(B50, B49, B49a, B60, B58); 
 B68b.surr = new Array(B48, B49);
-B69.surr = new Array(B51, B70); //edited by Zach
+B69.surr = new Array(B51, B70, B64a); 
 B70.surr = new Array(B50, B69, B60, B71);
 B71.surr = new Array(B64a, B65, B70, B62);
-B72.surr = new Array(B3,B12, B17, B17a,C3);//Zach added point B72 
 
-C1.surr=new Array(C1a, C1b, C2,C3,C6,C13,C24);//Added C24//ZACH
-C1a.surr=new Array(C1,C1b, C2,C24);//Added C24//ZACH
+
+C1.surr=new Array(C1a, C1b, C2,C3,C5,C6,C13);
+C1a.surr=new Array(C1,C1b, C2,C5);
 C1b.surr = new Array(C1, C1a);
-C2.surr=new Array(C1,C1a,C4,C13);
-C3.surr=new Array(B72, C1, A41);//Connected to A Connected to B
-C4.surr=new Array(C2, C4a, C4b, C6f,C23,C24);//Added C23,C24 //ZACH
-C4a.surr=new Array(C4, C4b,C4d,C23);
-C4b.surr = new Array(C4,C4a);
-C4c.surr = new Array(C4d);
-C4d.surr = new Array(C4c,C4a,C15,C26);//MAR27
-C5.surr=new Array(C24);//Added C24//ZACH
-C6.surr=new Array(C1,C6a,C6b,C20);//Added C20//ZACH
+C2.surr=new Array(C1,C1a,C4, C6,C13);
+C3.surr=new Array(B3, B12, B17, B17a, B27, C1, A41);//Connected to A Connected to B
+C4.surr=new Array(C2, C4a, C4b, C6f, C16);
+C4a.surr=new Array(C4, C4b);
+C4b.surr = new Array(C4, C4a, C4c);
+C4c.surr = new Array(C4b);
+C5.surr=new Array(C1,C1a);
+C6.surr=new Array(C1,C2, C6a,C6b,C6c,C6d,C7, C7a, C12);
 C6a.surr=new Array(C6);
-C6b.surr=new Array(C6, C6bx,C20);//Added C20//ZACH
+C6b.surr=new Array(C6, C6bx);
 C6bx.surr = new Array(C6b);
-C6c.surr=new Array(C20,C27);//Added C20//ZACH
-C6d.surr=new Array(C25);//Added C25//ZACH
-C6e.surr = new Array(C25);//Added C25//ZACH
-C6f.surr = new Array(C4,C25);//Added C25//ZACH
-C7.surr=new Array(C7a,C7b,C20,C21);//Added C20,C21 //ZACH
-C7a.surr=new Array(C7,C27);
+C6c.surr=new Array(C6,C12);
+C6d.surr=new Array(C6, C6e, C6f);
+C6e.surr = new Array(C6d);
+C6f.surr = new Array(C4, C6d);
+C7.surr=new Array(C6,C7a,C7b,C8);
+C7a.surr=new Array(C7);
 C7b.surr=new Array(C7);
-C8.surr=new Array(C10,C21,C22);//Added C22//ZACH
-C9.surr= new Array(B41,B44b,B52,C11,C22);//Added C22,B44b//ZACH
-C10.surr=new Array(C8,C11,C12);//Added C12 //ZACH
-C11.surr=new Array(B41,C9, C10);//Connected to B
-C12.surr=new Array(C10,C27);//Added C20//ZACH
-C13.surr=new Array(C1,C2,C14a);
-C14.surr=new Array(C14a,C15,C17);
-C14a.surr=new Array(C13,C14);
-C15.surr=new Array(C4d,C14,C15a,C16c, C17,C26 );//Added C16 //ZACH
-C16.surr=new Array(C16a, C16b, C16c,C23,C26);//Added C23//ZACH
-C16a.surr=new Array(C16,C23);//Added C23//ZACH
-C16b.surr = new Array(); // something missing
+C8.surr=new Array(C7,C9,C10);
+C9.surr= new Array(B41, C10,C8);
+C10.surr=new Array(C6, C9,C8,C11);
+C11.surr=new Array(B41, C10);//Connected to B
+C12.surr=new Array(C10,C6c,C6);
+C13.surr=new Array(C1,C2,C14);
+C14.surr=new Array(C13,C15,C17);
+C15.surr=new Array(C14,C15a,C16c, C17);
+C16.surr=new Array(C15,C16a,C4, C16b, C16c);
+C16a.surr=new Array(C16);
+C16b.surr = new Array(); // somethin missing
 C16c.surr = new Array(C15, C16);
 C17.surr=new Array(C14,C15, C17a, C18);
 C17a.surr = new Array(C17);
 C18.surr=new Array(A0, C17, C19);
 C19.surr = new Array(C18);
-//NEW ARRAYS
-C20.surr = new Array(C6,C6b,C6c,C7,C7b,C25,C27);
-C21.surr = new Array(C7,C8);
-C22.surr = new Array(C8,C9);
-C23.surr = new Array(C4,C4a,C16,C16a);
-C24.surr = new Array(C1,C1a,C4,C5,C25);
-C25.surr = new Array( C6d,C6e, C6f,C20,C24);
-C26.surr = new Array(C4d,C15,C16);
-C27.surr = new Array(C6c,C12,C20,C7a);
-//GRID ARRAY
-

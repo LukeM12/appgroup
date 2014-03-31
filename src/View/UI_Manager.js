@@ -7,17 +7,17 @@
  * Create a generic marker and return it 
  */
 function CreateGenericMarker (Map, LatLngObject, Title) {
+	
 	var marker = new google.maps.Marker({
 		position: LatLngObject,
 		map: Map,
 		title: Title,
 		animation: google.maps.Animation.DROP
-	});
+	    });
+	
 	return marker;
 }
-function PathFinder(){
-	alert();
-}
+
 /*
  * Create a generic Information Window and return it 
  */
@@ -38,11 +38,7 @@ function CreateGenericInfoWindow (FinalLocation, Width) {
 	  content: contentString,
 	  maxWidth: 700
 	});
-	//var button = document.getElementByTag('button');
-	//button.innerHTML = "HI";
-	//google.maps.event.addListener(button, 'click', function() {
-	//	alert("Hello word");
-	//})
+	
 	return infowindow;
 }
 
