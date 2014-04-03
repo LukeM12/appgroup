@@ -1,0 +1,46 @@
+NATIVE CELL PHONE FEATURES
+-------------------------
+Find which device
+http://stackoverflow.com/questions/12606245/detect-if-browser-is-running-on-an-android-or-ios-device
+
+Customize IOS7
+http://matt.might.net/articles/how-to-native-iphone-ipad-apps-in-javascript/
+
+customize android
+http://nextopics.com/blog/2012/12/28/develop-android-apps-with-html5-and-javascript/
+
+Need Blackberry
+
+ERROR MODULE FOR API
+--------------------
+Correlation of graph concepts required 
+New Pathfinding algorithm
+Testing module 1st priority - 300 lines of code. 
+Cycles, 
+
+If there is not 300+ lines of code per person. This is not done.
+I will not give step by step instructions. Half of this problem is being
+creative on how to test a graph.
+
+
+FINE TUNING THE MAP
+------------------------
+
+Experimentation with the look of the map. 
+The APP aesthetics and unit testing 
+try a 45 degrees view, where we can actually see the buildings
+https://developers.google.com/maps/documentation/javascript/examples/aerial-simpled
+
+Do a few other things to test that. 
+
+This job is responsible for making the app work more efficiently, amking the map more detailed while keeping the simplistic format, and having 300+ lines fo code per person to have options. Not all options will be used. Just one, but we want them all avaialb.e
+
+Testing should be alternated.
+
+TUNNELS
+--------
+Make them work. 
+Test them.
+Should be less then 200 lines of code. 
+
+
