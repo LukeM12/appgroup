@@ -16,8 +16,8 @@ function reinitialize() {
     var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);	
     //Make a step by step trail of custom point objects that use the graph to get from location to destination
     //if (LOCATION.hasNo
-    
-    alert( LOCATION.name);
+    var c = LOCATION.name;
+    alert("Hellow world");
 	if (typeof c !== "undefined") {
     	alert("Please choose a location");
 	}

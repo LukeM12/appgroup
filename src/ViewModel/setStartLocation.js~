@@ -4,8 +4,5 @@
     	temp.lat = START.lat;
     	temp.lng = START.lng;
     	START = FindClosestAssociatedPoint(temp, ALLPOINTS);//overwrite our starting location with our closest associated point.
-    	
-    	
-    	
     	reinitialize();	
     }
