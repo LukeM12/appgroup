@@ -91,7 +91,7 @@ function DisplayLocationInformationNoPin (FinalLocation, Map) {
  */
 function layPolygons(map)
 {
-for(var i=0;i<ALLPOINTS.length;i++){
+	for(var i=0;i<ALLPOINTS.length;i++){
 		
 		var MarkerPoint = new google.maps.LatLng(ALLPOINTS[i].lat,ALLPOINTS[i].lng);
 		var marker = new google.maps.Marker({

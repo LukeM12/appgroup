@@ -6,11 +6,10 @@
 		var closest=desti;
 		// intialize dist to high arbitrary number
 		//for loop to make marker only for closest point to destination
-		
-		PtFindLoop:
+		dance:
 		for(var w=0; w<length;w++){
 			if (loca.surr[w].building == desti.building){
-				return loca.surr[w];
+				return desti;
 			}
 			if (loca.surr[w].building != "null"){
 				continue;
@@ -19,7 +18,7 @@
 				for (var INDEX = 0; INDEX< 3; INDEX ++){
 					if (FinalArray[FinalArray.length-INDEX] == loca.surr[w]){
 						//alert("POint " + FinalArray[FinalArray.length-INDEX].name + "and " + loca.surr[w].name + " are the same ");
-						continue PtFindLoop;
+						continue dance;
 					}
 				}
 			}
