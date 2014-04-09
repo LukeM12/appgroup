@@ -5,8 +5,6 @@ function SetLocation(lat,lng){
   	loc.lat = lat;
   	loc.lng = lng;
 	LOCATION = FindClosestAssociatedPoint(loc, ALLPOINTS);
-	alert("THis is the closest point");
-	alert(LOCATION.name);
 	}
 
 //function to find our location using gps data.   
